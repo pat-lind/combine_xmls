@@ -3,6 +3,9 @@ One type of XML contains groups of points that define contours. The other type o
 
 No extra libraries need to be installed.
 
+When combining XML's the script uses the header / metadata of the type of XML with the points that define cell locations.
+
+
 ### USAGE:
 
 python combine_xmls.py "Path/To/Folder_With_cell_mappings" "Path/To/Folder_with_contours" "Path/To/Output_folder"
